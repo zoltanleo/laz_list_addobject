@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 578
+  Height = 240
+  Top = 209
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '2.3.0.0'
+  object ListBox1: TListBox
+    Left = 16
+    Height = 152
+    Top = 16
+    Width = 292
+    ItemHeight = 0
+    OnClick = ListBox1Click
+    TabOrder = 0
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 16
+    Height = 23
+    Top = 182
+    Width = 50
+    MaxValue = 5
+    MinValue = 1
+    OnChange = SpinEdit1Change
+    TabOrder = 1
+    Value = 1
+  end
+end
